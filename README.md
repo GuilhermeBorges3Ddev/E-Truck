@@ -1,5 +1,5 @@
-#E-Truck
-...................
+# E-Truck
+
 
 Para executar o app React Native: expo start
 
