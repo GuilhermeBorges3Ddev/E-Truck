@@ -17,20 +17,20 @@ https://nodejs.org/pt-br/download/
 <h2>Installation and How to Use</h2>
 First clone the project.
 
-'''
+```
 git clone https://github.com/BraianMendes/BeeLeads-Test-Braian.git
-'''
+```
 
 Then you need to install the dependencies.
-'''
+```
 expo install
-'''
+```
 
 And now the last step is execute both applications. Inside the frontend directory and the backend directory, execute at same time in different terminals npm start.
 
-'''
+```
 expo start
-'''
+```
 The command will start the app in a Metro Bundler.
 
 
