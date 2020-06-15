@@ -33,22 +33,26 @@ export default class HomeScreen extends Component {
             { 
                 id: "02", 
                 name: "Promoções",
-                image:  imgPromotion
+                image:  imgPromotion,
+                nav: "HomeScreen"
             },
             { 
                 id: "03", 
                 name: "Questionários",
-                image:  imgHealth
+                image:  imgHealth,
+                nav: "HomeScreen"
             },            
             { 
                 id: "04", 
                 name: "Ranking",
-                image:  imgRank
+                image:  imgRank,
+                nav: "HomeScreen"
             },            
             { 
                 id: "05", 
                 name: "Configurações",
-                image:  imgSettings
+                image:  imgSettings,
+                nav: "HomeScreen"
             },
             // { 
             //     id: "06", 
