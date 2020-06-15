@@ -1,8 +1,8 @@
 {
-  "name": "BTrem",
-  "displayName": "BTrem",
+  "name": "E-Truck",
+  "displayName": "E-Truck",
   "expo": {
-    "name": "BTrem",
+    "name": "E-Truck",
     "slug": "expo-template-bare",
     "privacy": "unlisted",
     "version": "1.0.0",

@@ -59,6 +59,10 @@ function runTiming(clock, value, dest) {
     state.position
   ]);
 }
+
+const Logo = {uri: 'https://snack.expo.io/web-player/37/static/media/react-native-logo.2e38e3ef.png'};
+
+
 class LoginScreen extends Component{
   constructor(props) {
     super(props);
@@ -139,14 +143,15 @@ class LoginScreen extends Component{
             ...StyleSheet.absoluteFill,
             transform: [{ translateY: this.bgY }]
           }}
-        >
+        >  
 
           <Svg height={height + 50} width={width}>
             <ClipPath id="clip">
               <Circle r={height + 50} cx={width / 2} />
             </ClipPath>
+
             <Image
-              href={require('../../../assets/bg.jpg')}
+              href={require('../../../assets/bg.jpeg')}
               width={width}
               height={height + 50}  
               preserveAspectRatio='xMidYMid slice'
@@ -190,7 +195,7 @@ class LoginScreen extends Component{
               ...StyleSheet.absoluteFill,
               top:null,
               justifyContent:'center'
-            }}>
+            }}> 
 
             <TapGestureHandler onHandlerStateChange={this.onCloseState}>
               <Animated.View style={styles.closeButton}>
@@ -217,7 +222,6 @@ class LoginScreen extends Component{
               style={styles.textInput}
               placeholderTextColor="black"
             />
-
 
             <TouchableHighlight onPress={() => this.props.navigation.navigate('HomeScreen')} >
                 <Animated.View  style={styles.button}>
@@ -282,5 +286,17 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.2,
     borderWidth: 0.1,
     borderColor: 'grey'
-  }
+  },
+  image: {
+    flex: 1,
+    height: undefined,
+    width: undefined
+},
+profileImage: {
+  zIndex: 100,
+  width: 200,
+  height: 200,
+  borderRadius: 100,
+  overflow: "hidden"
+},
 });

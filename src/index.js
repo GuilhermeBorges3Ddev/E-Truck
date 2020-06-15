@@ -17,6 +17,7 @@ import HomeScreen from './screens/HomeScreen';
 import MapScreen from './screens/MapScreen';
 import UserScreen from './screens/UserScreen';
 import TrophyScreen from './screens/TrophyScreen';
+import ChatBot from './components/Chatbot';
 
 const Stack = createStackNavigator();
 
@@ -36,6 +37,7 @@ class AppProvider extends Component{
                 <Stack.Screen name="MapScreen" component={MapScreen} />
                 <Stack.Screen name="UserScreen" component={UserScreen} />
                 <Stack.Screen name="TrophyScreen" component={TrophyScreen} />
+                <Stack.Screen name="ChatBot" component={ChatBot} />
             </Stack.Navigator>
         </NavigationContainer>
     )

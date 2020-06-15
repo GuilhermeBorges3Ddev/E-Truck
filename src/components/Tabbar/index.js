@@ -8,8 +8,7 @@ export default class BottomNavigator extends Component {
     }
 
     toggleOpen = () => {
-
-
+        this.props.navigation.navigate('ChatBot')
     }
 
     render() {
@@ -76,7 +75,7 @@ export default class BottomNavigator extends Component {
 
                                 style={{ width: 30, height: 30 }}
 
-                                source={{ uri: 'http://pluspng.com/img-png/home-icon-png-home-house-icon-image-202-512.png' }}
+                                source={{ uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/VisualEditor_-_Icon_-_Menu.svg/1200px-VisualEditor_-_Icon_-_Menu.svg.png' }}
 
                                 onPress={()=>{Alert.alert("")}}
                             >
@@ -84,7 +83,7 @@ export default class BottomNavigator extends Component {
                             </Image>
 
                         </TouchableOpacity>
-                        <Text style={{justifyContent:'center',alignItems:'center'}}>Início</Text>
+                        <Text style={{justifyContent:'center',alignItems:'center'}}>Menu</Text>
                     </View>
                     
                     <View style={{
