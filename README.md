@@ -4,25 +4,25 @@
 
 Our project has as main objective to assist the driver in his pains. The App is the union of resources that are necessary for the improvement of his well-being and health. We seek to innovate through artificial intelligence and the compilation of problems, offering the best service to the user.
 
-<img source="./readme_assets/intro.jpeg" width="100%">
-<img source="./readme_assets/menu.jpeg" width="100%">
-<img source="./readme_assets/user.jpeg" width="100%">
+<img src="./readme_assets/intro.jpeg" width="100%">
+<img src="./readme_assets/menu.jpeg" width="100%">
+<img src="./readme_assets/user.jpeg" width="100%">
 
 <h2>Features</h2>
 
 <h3>Map with Routes</h3>
 
-<img source="./readme_assets/map.jpeg" width="100%">
+<img src="./readme_assets/map.jpeg" width="100%">
 
 <h3>Bot with Artificial Intelligence with Integrated Solutions</h3>
 
-<img source="./readme_assets/bot1.jpeg" width="100%">
-<img source="./readme_assets/bot2.jpeg" width="100%">
+<img src="./readme_assets/bot1.jpeg" width="100%">
+<img src="./readme_assets/bot2.jpeg" width="100%">
 
 <h3>Gamification for Truck Driver</h3>
 
-<img source="./readme_assets/prize1.jpeg" width="100%">
-<img source="./readme_assets/prize2.jpeg" width="100%">
+<img src="./readme_assets/prize1.jpeg" width="100%">
+<img src="./readme_assets/prize2.jpeg" width="100%">
 
 
 
