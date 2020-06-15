@@ -6,6 +6,10 @@
 
 Our project has as main objective to assist the driver in his pains. The App is the union of resources that are necessary for the improvement of his well-being and health. We seek to innovate through artificial intelligence and the compilation of problems, offering the best service to the user.
 
+<img source="../readme_assets/intro.jpeg">
+<img source="../readme_assets/menu.jpeg">
+<img source="../readme_assets/user.jpeg">
+
 <h2>Features</h2>
 
 <h3>Map with Routes</h3>

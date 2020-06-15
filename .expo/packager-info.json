@@ -1,10 +1,10 @@
 {
-  "packagerPort": 19001,
-  "packagerPid": 17844,
-  "expoServerPort": 19000,
-  "expoServerNgrokUrl": "https://b9-8a9.braianmendes.amigocaminhoneiro.exp.direct",
-  "packagerNgrokUrl": "https://packager.b9-8a9.braianmendes.amigocaminhoneiro.exp.direct",
-  "ngrokPid": 5684,
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerPort": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null,
   "webpackServerPort": null,
   "devToolsPort": 19002
 }
