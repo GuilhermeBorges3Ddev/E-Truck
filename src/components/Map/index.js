@@ -21,7 +21,7 @@ import {
 	LocationTimeTextSmall 
 } from './styles';
 
-Geocoder.init('AIzaSyBh6HtJwT-TpPN5NHywnVsb69dWpCstaYQ');
+Geocoder.init('AIzaSyDohqxTQ_ZCalG2eDsx2B4yEO6DrD-X5wQ');
 
 export default class Map extends Component {
 	state = {

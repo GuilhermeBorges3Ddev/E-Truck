@@ -16,6 +16,7 @@ import LoginScreen from './screens/LoginScreen';
 import HomeScreen from './screens/HomeScreen';
 import MapScreen from './screens/MapScreen';
 import UserScreen from './screens/UserScreen';
+import RegisterScreen from './screens/RegisterScreen';
 import TrophyScreen from './screens/TrophyScreen';
 import ChatBot from './components/Chatbot';
 
@@ -38,6 +39,7 @@ class AppProvider extends Component{
                 <Stack.Screen name="UserScreen" component={UserScreen} />
                 <Stack.Screen name="TrophyScreen" component={TrophyScreen} />
                 <Stack.Screen name="ChatBot" component={ChatBot} />
+                <Stack.Screen name="RegisterScreen" component={RegisterScreen} />
             </Stack.Navigator>
         </NavigationContainer>
     )

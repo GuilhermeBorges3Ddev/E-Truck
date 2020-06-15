@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, Dimensions, TextInput, TouchableHighlight } fro
 
 // Reanimated >> GestureHandler
 import Animated, { Easing } from 'react-native-reanimated';
-import { TapGestureHandler, State } from 'react-native-gesture-handler';
+import { TapGestureHandler, State, TouchableOpacity } from 'react-native-gesture-handler';
  
 // React-Native-SVG
 import Svg, { Image, Circle, ClipPath } from 'react-native-svg';
@@ -151,7 +151,7 @@ class LoginScreen extends Component{
             </ClipPath>
 
             <Image
-              href={require('../../../assets/bg.jpeg')}
+              href={require('../../../assets/bg.png')}
               width={width}
               height={height + 50}  
               preserveAspectRatio='xMidYMid slice'
@@ -162,17 +162,6 @@ class LoginScreen extends Component{
 
         <View style={{ height: height / 3, justifyContent: 'center' }}>
           <TapGestureHandler onHandlerStateChange={this.onStateChange}>
-            <Animated.View
-              style={{
-                ...styles.button,
-                opacity: this.buttonOpacity,
-                transform: [{ translateY: this.buttonY }]
-              }}
-            >
-              <Text style={{ fontSize: 20, fontWeight: 'bold' }}>Entrar</Text>
-            </Animated.View>
-          </TapGestureHandler>
-
           <Animated.View
             style={{
               ...styles.button,
@@ -182,9 +171,25 @@ class LoginScreen extends Component{
             }}
           >
             <Text style={{ fontSize: 20, fontWeight: 'bold', color: 'white' }}>
-              Entrar com Facebook
+              Entrar
             </Text>
           </Animated.View>
+          </TapGestureHandler>
+
+
+
+          <TouchableOpacity onPress={ () => this.props.navigation.navigate('RegisterScreen')}>
+            <Animated.View
+                style={{
+                  ...styles.button,
+                  opacity: this.buttonOpacity,
+                  transform: [{ translateY: this.buttonY }]
+                }}
+              >
+                <Text style={{ fontSize: 20, fontWeight: 'bold' }}>Novo Usuário</Text>
+            </Animated.View> 
+          </TouchableOpacity>
+         
 
           <Animated.View 
             style={{

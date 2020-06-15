@@ -1,5 +1,6 @@
 {
   "name": "E-Truck",
+  "icon": "./assets/icon.ico",
   "displayName": "E-Truck",
   "expo": {
     "name": "E-Truck",

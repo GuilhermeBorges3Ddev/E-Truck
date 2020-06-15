@@ -7,7 +7,7 @@ import { dialogflowConfig } from '../../utils/dialogFlowConfig.js';
 const BOT_USER = {
     _id: 2,
     name: 'FAQ Bot',
-    avatar: 'https://i.imgur.com/7k12EPD.png'
+    avatar: 'https://i.pinimg.com/736x/fd/a1/3b/fda13b9d6d88f25a9d968901d319216a.jpg'
   };
 
 export default class ChatBot extends Component {
@@ -15,7 +15,8 @@ export default class ChatBot extends Component {
         messages: [
             {
             _id: 1,
-            text: `Oi! Eu sou o Bruto Bot 🤖 da E-Truck.\n\nComo posso te ajudar hoje?`,
+            text: `Olá! Eu sou o BrutoBot 🤖, eu sou um robô e vou te dar algumas opções para te ajudar a escolher o que podemos fazer juntos:
+            \n\nTraçar Rota\nGanhar Pontos\nRelatar algum problema\nDicas para melhorar a saúde\nEncontrar um estabelecimento`,
             createdAt: new Date(),
             user: BOT_USER
             }
@@ -26,7 +27,7 @@ export default class ChatBot extends Component {
     Dialogflow_V2.setConfiguration(
         dialogflowConfig.client_email,
         dialogflowConfig.private_key,
-        Dialogflow_V2.LANG_ENGLISH_US,
+        Dialogflow_V2.LANG_PORTUGUESE_BRAZIL,
         dialogflowConfig.project_id
     );
     }
@@ -71,6 +72,7 @@ export default class ChatBot extends Component {
               user={{
                 _id: 1
               }}
+              placeholder="Escreva sua mensagem... "
             />
           </View>
         )

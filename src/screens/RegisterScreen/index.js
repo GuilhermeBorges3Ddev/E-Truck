@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import { Text, Viewm, StyleSheet } from 'react-native';
-import { Input } from 'galio-framework';
+import { Text, View, StyleSheet, Image } from 'react-native';
+import { Input, Button } from 'galio-framework';
 
 export default class RegisterScreen extends Component {
     render() {
         return (
-            <View>
+            <View style={styles.container}>
+
+<Image source={require("../../../assets/logo.png")} style={styles.image} resizeMode="center"></Image>
+
                 <Input 
                     style={styles.searchInput}
                     left
@@ -23,16 +26,36 @@ export default class RegisterScreen extends Component {
                     left
                     placeholder="Telefone" 
                     rounded 
-                />                           
+                />     
+                <Button
+                    color="info"
+                    style={styles.btn}
+                >
+                    Criar Nova Conta
+                </Button>
             </View>
         )
     }
 }
 
 const styles = StyleSheet.create({
+    container: {
+        marginTop: 80,
+    },
     searchInput: {
         marginLeft: 10,
         marginTop: 10,
         width: 340,
+    },
+    btn: {
+        alignSelf: 'center',
+        borderRadius: 20,
+        marginTop: 10,
+        marginBottom: 10,
+    },
+    image: {
+        alignSelf: 'center',
+        height: 200,
+        width: 200
     },
 })
