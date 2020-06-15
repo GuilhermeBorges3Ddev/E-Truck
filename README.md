@@ -1,6 +1,4 @@
 # E-Truck
-     
-
 
 <h1>What the project is about</h1>
 
