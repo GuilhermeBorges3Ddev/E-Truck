@@ -5317,9 +5317,9 @@ jsprim@^1.2.2:
     verror "1.10.0"
 
 jsrsasign@^8.0.12:
-  version "8.0.16"
-  resolved "https://registry.yarnpkg.com/jsrsasign/-/jsrsasign-8.0.16.tgz#ca5db63dd8613624136e691f8ea68545612ace70"
-  integrity sha512-4yR8Bm76RKlh+qYtS7m7F1wjKB2A0R0e0VxyMy10PJNEpb/UiXKS40QmU36nuUT7Ea4/cbv4HXu1Z9c91nwLow==
+  version "8.0.20"
+  resolved "https://registry.yarnpkg.com/jsrsasign/-/jsrsasign-8.0.20.tgz#37d8029c9d8f794d8ac8d8998bce319921491f11"
+  integrity sha512-JTXt9+nqdynIB8wFsS6e8ffHhIjilhywXwdaEVHSj9OVmwldG2H0EoCqkQ+KXkm2tVqREfH/HEmklY4k1/6Rcg==
 
 kind-of@^1.1.0:
   version "1.1.0"
@@ -6862,8 +6862,9 @@ react-native-maps@0.26.1:
   resolved "https://registry.yarnpkg.com/react-native-maps/-/react-native-maps-0.26.1.tgz#6ec316259b38d259c8974448d894bd7a23101da4"
   integrity sha512-p4VTB8YB5ZmOmDRCUpoHZkm05amZwhIo04AJMBbB9+JAR2PNNfpo0vceoWX0Mag4wnePkdzPomeWMplr/wimTg==
 
-"react-native-parsed-text@github:EvanBacon/react-native-parsed-text":
+react-native-parsed-text@EvanBacon/react-native-parsed-text:
   version "0.0.22"
+  uid c909f64ee437796fd1b047edd73146fc89edb796
   resolved "https://codeload.github.com/EvanBacon/react-native-parsed-text/tar.gz/c909f64ee437796fd1b047edd73146fc89edb796"
   dependencies:
     prop-types "^15.5.10"
