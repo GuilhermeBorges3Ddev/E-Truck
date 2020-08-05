@@ -5,29 +5,29 @@
 Our project has as main objective to assist the driver in his pains. The App is the union of resources that are necessary for the improvement of his well-being and health. We seek to innovate through artificial intelligence and the compilation of problems, offering the best service to the user.
 
 <div style="display: flex">
-    <img src="./readme_assets/intro.jpg" width="20%"  >
-    <img src="./readme_assets/menu.jpg" width="20%"  >
-    <img src="./readme_assets/user.jpg" width="20%"  >
+    <img src="./readme_assets/intro.jpg" width="20%"/>
+    <img src="./readme_assets/menu.jpg" width="20%"/>
+    <img src="./readme_assets/user.jpg" width="20%"/>
 </div>
 
 <h2>Features</h2>
 
 <h3>Map with Routes</h3>
 
-<img src="./readme_assets/map.jpg" width="20%"  >
+<img src="./readme_assets/map.jpg" width="20%"/>
 
 <h3>Bot with Artificial Intelligence with Integrated Solutions</h3>
 
 <div style="display: flex">
-    <img src="./readme_assets/bot1.jpg" width="20%"  >
-    <img src="./readme_assets/bot2.jpg" width="20%"  >
+    <img src="./readme_assets/bot1.jpg" width="20%"/>
+    <img src="./readme_assets/bot2.jpg" width="20%"/>
 </div>
 
 <h3>Gamification for Truck Driver</h3>
 
 <div style="display: flex">
-    <img src="./readme_assets/prize1.jpg" width="20%"  >
-    <img src="./readme_assets/prize2.jpg" width="20%"  >
+    <img src="./readme_assets/prize1.jpg" width="20%"/>
+    <img src="./readme_assets/prize2.jpg" width="20%"/>
 </div>
 
 
